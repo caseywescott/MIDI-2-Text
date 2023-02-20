@@ -15,7 +15,7 @@ getSongPrompt has the following modes and parameters:
 
 # Example:
 
-let song = new MIDISong("/url/Firelight.mid")
+let song = new MIDISongProperties("/url/Firelight.mid")
 
 song.getSongPrompt(1,1,1)  ====>
 
