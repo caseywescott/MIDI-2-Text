@@ -29,7 +29,7 @@ songp.getSongPrompt(1, 0.71, 0.21)  ====>
 
 **"A baroque pianissimo song named 'Firelight in the key of A major played by very quiet Flute, Contrabass and Harpsichord at a walking pace, moderately slow at 97 BPM in 4/4 time."**
 
-# MidJourney Example:
+# MidJourney Prompt Example:
 .getMidJourneySongPrompt
 
 <img width="480" alt="Screen Shot 2023-02-20 at 3 12 00 PM" src="https://user-images.githubusercontent.com/44890312/220211319-85f018a2-08d7-455d-840c-013a84c09b26.png">
