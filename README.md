@@ -6,9 +6,9 @@ Re-Orchestration happens by switching instruments within the same General MIDI I
     
 getSongPrompt has the following modes and parameters:
 
-1. Re-Orchestration Mode - If == 1, then re-orchestrate the song's instruments to similar instruments.
-2. Tempo-Scalar - Modulates the song's prompts tempo description
-3. Dynamic-Scalar - Modulates the song's dynamic description
+1. Re-Orchestration Mode: If == 1, then re-orchestrate the song's instruments to similar instruments.
+2. Tempo-Scalar: Modulates the song's prompts tempo description
+3. Dynamic-Scalar: Modulates the song's dynamic description
 
 Example:
 
