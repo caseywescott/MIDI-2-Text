@@ -20,9 +20,8 @@ song.getSongPrompt(1,1,1)  ====>
 
 songp.getSongPrompt(1, 0.31, 0.71)  ====>
 
-**"A baroque mezzopiano song named 'firelight' in the key of A major played by moderately quiet Whistle, Viola and Acoustic Grand Piano very slow and solemn at 37 BPM in 4/4 time."
-**
+**"A baroque mezzopiano song named 'firelight' in the key of A major played by moderately quiet Whistle, Viola and Acoustic Grand Piano very slow and solemn at 37 BPM in 4/4 time."**
+
 console.log(songp.getSongPrompt(1, 0.71, 0.21))  ====>
 
-**"A baroque pianissimo song named 'firelight in the key of A major played by very quiet Flute, Contrabass and Harpsichord at a walking pace, moderately slow at 97 BPM in 4/4 time."
-**
+**"A baroque pianissimo song named 'firelight in the key of A major played by very quiet Flute, Contrabass and Harpsichord at a walking pace, moderately slow at 97 BPM in 4/4 time."**
