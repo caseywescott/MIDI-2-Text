@@ -16,7 +16,7 @@ let song = new MIDISong("/url")
 
 song.getSongPrompt(1,1,1)  ====>
 
-"A baroque forte song named 'YOUR SONG NAME' in the key of A major played by loud Shakuhachi, Violin and Acoustic Grand Piano at a moderate speed at 120 BPM in 4/4 time."
+"A baroque forte song named 'YOUR SONG NAME' in the key of A major played by loud Shakuhachi, Violin and Acoustic Grand Piano at a moderate speed, 120 BPM in 4/4 time."
 
 songp.getSongPrompt(1, 0.31, 0.71)  ====>
 
