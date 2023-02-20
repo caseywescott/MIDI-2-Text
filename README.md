@@ -32,7 +32,8 @@ songp.getSongPrompt(1, 0.71, 0.21)  ====>
 # MidJourney Example:
 .getMidJourneySongPrompt
 
-<img width="480" alt="Screen Shot 2023-02-20 at 3 09 29 PM" src="https://user-images.githubusercontent.com/44890312/220211204-23ea8ccb-dd10-4843-9222-2036bcb0ed4f.png">
+<img width="480" alt="Screen Shot 2023-02-20 at 3 12 00 PM" src="https://user-images.githubusercontent.com/44890312/220211319-85f018a2-08d7-455d-840c-013a84c09b26.png">
+
 
 <img width="479" alt="Screen Shot 2023-02-20 at 3 09 58 PM" src="https://user-images.githubusercontent.com/44890312/220211215-9cf05027-2f08-46a9-b092-dc40ef895b74.png">
 
