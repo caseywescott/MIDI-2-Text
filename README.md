@@ -2,6 +2,7 @@
 A Musical Prompt Generator and Re-Orchestrator for the MIDI Standard Specification.
 
 MIDI-2-Text library enables the generation and variation of prompts derived from MIDI files.
+
 Re-Orchestration is facilitated by switching instruments within the same General MIDI InstrumentGroups as well as modulating tempo and dynamics.
     
 getSongPrompt has the following modes and parameters:
