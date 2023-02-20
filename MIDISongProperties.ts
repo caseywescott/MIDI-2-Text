@@ -181,4 +181,67 @@ export class MIDISongProperties {
       "."
     )
   }
+  
+  getMidJourneySongPrompt(
+    reorchestrate_mode: number,
+    temposcale: number,
+    dynamicscale: number
+  ) {
+    let updatedtempo = Math.trunc(this.defaulttempo * temposcale)
+    let updatedvelocity = Math.trunc(this.defaultvelocity * dynamicscale)
+
+    let tempomarking = new Tempo_Markings()
+    let dynamicmarking = new Dynamic_Markings()
+    let instp: string
+    if (reorchestrate_mode == 1) {
+      instp = this.getInstrumentPrompt(reorchestrate_mode)
+    } else {
+      instp = this.getInstrumentPrompt(reorchestrate_mode)
+    }
+    // let tempo_marker = getTempoMarkingText(this.defaulttempo)
+    let dynamic_marker = dynamicmarking.getVelocityMarkingName(updatedvelocity)
+
+    let key = note_keys[this.tonic.note]
+    let mode: string = ""
+    if (this.quality == 0) {
+      mode = "major"
+    } else {
+      mode = "minor"
+    }
+    let quality = note_keys[this.tonic.note]
+    let mid_journey_intro =
+    " Double exposure, with fantasy landscape of castles and rivers and war. "
+
+  let mid_journey_outro = " --v 4 --q 2"
+
+    return (
+      mid_journey_intro +
+      " A " +
+      this.textdescription +
+      " " +
+      dynamic_marker +
+      " song named " +
+      this.name +
+      " in the key of " +
+      key +
+      " " +
+      mode +
+      " played by " +
+      dynamicmarking.getVelocityMarking(updatedvelocity) +
+      instp +
+      // tempomarking.getTempoMarkingName(this.defaulttempo) +
+      " " +
+      tempomarking.getTempoMarking(updatedtempo) +
+      ", " +
+      updatedtempo +
+      " BPM" +
+      " in " +
+      this.defaultnumberofbeats +
+      "/" +
+      this.defaultbeatdivision +
+      " time" +
+      "." + mid_journey_outro
+    )
+  }
+  
 }
