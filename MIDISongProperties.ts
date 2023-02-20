@@ -1,26 +1,19 @@
 /*
-  Song Specifiction for Adaptive Music Systen
-
-  Realms composers can define the degree of adaptation for their compositions. 
+  MIDI-2-Text
   
-  To do so, we must define the following: 
-  
-  Song Properties:
+  A Musical Prompt Generator and Re-Orchestrator for the MIDI Standard Specification.
 
-   - Address 
-   - Key
-   - Tempo
-   - metadata (SoundFont)
+  MIDI-2-Text library enables the generation and musical variation of prompts derived from MIDI files.
 
-  Adaptation Properties:
+  Re-Orchestration is facilitated by switching instruments within the same General MIDI InstrumentGroups as well as modulating tempo and dynamics.
 
-   - minTempo: Lowest tempo the music can play
-   - maxTempo: Maximum tempo the music can play
-   - down_trans: Lowest transposition allowed
-   - up_trans: Highes transposition allowed
-   - soundfontname: Default soundfont to play song
+  getSongPrompt has the following modes and parameters:
 
-   Resource Associations
+  1. Re-Orchestration Mode: If == 1, then re-orchestrate the song's instruments to similar instruments.
+
+  2. Tempo-Scalar: Modulates the song prompt's tempo description.
+
+  3. Dynamic-Scalar: Modulates the description of the song's dynamics.
 
 */
 
