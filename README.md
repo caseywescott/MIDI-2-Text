@@ -35,6 +35,7 @@ song.getMidJourneySongPrompt(1, 0.31, 0.71)  ====>
 
 **"Double exposure, with fantasy landscape. Black background. "A baroque mezzopiano song named 'Firelight' in the key of A major played by moderately quiet Whistle, Viola and Acoustic Grand Piano very slow and solemn at 37 BPM in 4/4 time." --v 4"**
 
+
 <img width="480" alt="Screen Shot 2023-02-20 at 3 12 00 PM" src="https://user-images.githubusercontent.com/44890312/220211319-85f018a2-08d7-455d-840c-013a84c09b26.png">
 
 
